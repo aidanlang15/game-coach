@@ -1,6 +1,6 @@
 # Game Coach
 
-A coach for building Roblox games with Claude Code. It trains you to get great results from Claude: better prompts, a CLAUDE.md that sets the rules, memories that teach Claude your taste, and notes that keep every chat up to date. It's built from how we made **Battle for Pets** with Claude Code, with our real examples.
+A coach for building Roblox games with Claude Code. It trains you to get great results from Claude: better prompts, a CLAUDE.md that sets the rules, memories that teach Claude your taste, and notes that keep every chat up to date. It's built from four Roblox games we made with Claude Code (**Battle for Pets**, **Axel**, **+1 Mecha Cyborg** and **+1 TikTok Fame**), with real examples from them.
 
 It's a Claude Code **skill**: your own Claude turns into the coach when you type `/game-coach`. It coaches, it doesn't build your game, and it asks before writing any file.
 
@@ -52,5 +52,7 @@ Good order: `setup`, then lessons 1, 2, 3 and 5, then `review` before your real 
 8. Checking the work, git and saving
 9. Making your usage last
 10. Skills: turning a routine into a command
+11. Starting your next game: carry the lessons over
+12. Helping on a friend's game
 
 Your progress is saved in `notes/Coach Progress.md` in your project.

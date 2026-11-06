@@ -1,6 +1,6 @@
 # Example: Battle for Pets memories
 
-Five real memories from our project, lightly trimmed. Each is one small file in Claude Code's memory folder, and a one-line pointer to it sits in `MEMORY.md`. Notice that every one says **what**, **why** and **how to apply it**. The why is what lets Claude handle the cases nobody wrote down.
+Six real memories from our games, lightly trimmed. Each is one small file in Claude Code's memory folder, and a one-line pointer to it sits in `MEMORY.md`. Notice that every one says **what**, **why** and **how to apply it**. The why is what lets Claude handle the cases nobody wrote down.
 
 ---
 
@@ -80,6 +80,22 @@ Every prompt I write for another chat ends with: "What questions do you have for
 **Why:** the new chat raises open decisions before building instead of guessing.
 
 **How to apply:** make it the last line inside the prompt's code block.
+```
+
+---
+
+```markdown
+---
+name: compare-to-reference
+description: Before showing a model, compare it side by side with the reference from the same angles and judge it honestly
+type: feedback
+---
+
+Before showing a model, put it next to the reference or concept from the same angles and list the real differences in shape, proportions, shading and detail. Don't present it as a match unless it holds up. Measure the concept's proportions before building.
+
+**Why:** on Axel, the user asked "does the car model look anything like the reference photo? Genuinely look at both". The car was low, boxy and flat-shaded next to a tall, curved concept, and several rounds were wasted before that.
+
+**How to apply:** render or screenshot the matching views, compare, and fix big gaps before the user sees it. If a method can't reach the reference, say so plainly and switch methods.
 ```
 
 ---

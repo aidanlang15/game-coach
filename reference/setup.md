@@ -23,6 +23,10 @@ If CLAUDE.md or notes already exist, **don't overwrite them**. Propose additions
 5. The Studio place's name. (Default: the one `list_roblox_studios` shows.)
 6. How does code get into Studio? (Default: whatever you found in step 1: Rojo if there's a `default.project.json`, otherwise Claude edits scripts in Studio through the MCP.)
 7. Anything Claude does that annoys you? (Default: "adding things I didn't ask for", the most common one.)
+8. Is this your game or a friend's? (default: mine) If it's a friend's, add a guest section like the one in `examples/other-games.md`, and suggest lesson 12.
+9. Do you have another game already set up with Claude? (default: no) If so, offer to copy its memories, and to add a read-only "other games" section (lesson 11).
+
+If there's no Rojo, the template's "Without Rojo" line replaces the Rojo one. A git repo still helps here: it's where the script snapshots go, so every edit can be undone.
 
 ## 3. Show the plan, wait for yes
 

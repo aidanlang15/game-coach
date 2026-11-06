@@ -19,6 +19,12 @@ Building is the expensive part. Changing an answer to a question costs one messa
 - New UI gets 2-4 Figma mocks over a real game screenshot first. We pick one, then Claude builds it.
 - For big features, Claude writes a **plan** first, split into sessions (one chat each). Our Halloween update was planned as 13 sessions, each with its own prompt.
 
+## Looks: three more lessons from our other games
+
+- **Make Claude compare its work to the reference honestly**, from the same angles, before showing you. On Axel, a car went several rounds before the question "does it look anything like the reference photo? Genuinely look at both" showed it was nothing like it.
+- **UI must not look "AI made".** Flat circles with words in them and plain gray squares got rejected. Ask for drawn icons, depth (a rim, gloss, a shadow) and colors that mean something.
+- **In a genre game, standard screens follow the genre's hits.** On +1 Mecha Cyborg, three original HUD mocks lost to a screenshot of a top game's HUD, because players already know that layout. Use your own art, though, never theirs.
+
 ## Ask for the honest view
 
 Some other cheap questions that save rework:

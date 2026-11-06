@@ -27,7 +27,8 @@ Do these before the first task, without being asked:
 
 ## Code
 
-- Code syncs through Rojo: `src/client` → StarterPlayerScripts, `src/server` → ServerScriptService, `src/shared` → ReplicatedStorage.Shared. Edit the files, not the scripts in Studio. The map lives only in the place.
+- [With Rojo:] Code syncs through Rojo: `src/client` → StarterPlayerScripts, `src/server` → ServerScriptService, `src/shared` → ReplicatedStorage.Shared. Edit the files, not the scripts in Studio. The map lives only in the place. This project's Rojo port is [port]. Never connect it to another game's place.
+- [Without Rojo:] The code lives in the Studio place. Read and edit scripts through the Studio MCP. Before editing a script, save its current Source to `snapshots/<full instance path>.luau` and commit, so the edit can be undone.
 - The server decides anything that matters (money, pets, battles, saving). The client only asks.
 - [If set up:] Run `selene src` and `stylua --check src` on changed code.
 

@@ -21,6 +21,8 @@ Git is your undo button. If a task goes wrong, you can go back to the last commi
 - **Back up player data before changing how saving works,** and test with a copy, never with real players' saves.
 - **Check phones.** Most Roblox players are on phones. Use the device emulator in Studio.
 - **Check the map before publishing.** A test model left in Workspace goes live.
+- **Lock finished builds.** On Axel, the whole race track got dragged 22 studs out of place by accident. Locked parts can't be dragged.
+- **Check every angle.** A mecha's knee pad looked fine from the front and like a loose loop from behind.
 
 ## From Battle for Pets
 
