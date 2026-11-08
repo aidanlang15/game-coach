@@ -37,8 +37,15 @@ Start a new chat in your game's folder and type `/game-coach`.
 | `/game-coach review <your prompt>` | Grades a prompt before you send it, rewrites it, and teaches one habit |
 | `/game-coach lesson` | The next lesson (or `lesson 4`, `lesson memory`), each with a short exercise |
 | `/game-coach checkup` | Looks over your CLAUDE.md, memory and notes and suggests the top 3 fixes |
+| `/game-coach how <topic>` | Shows how we built that part of our games (`how world building`, `how did you make your combat?`) and writes you a build prompt for it |
 
-Good order: `setup`, then lessons 1, 2, 3 and 5, then `review` before your real prompts for a few days.
+Good order: `setup`, then lessons 1, 2, 3 and 5, then `review` before your real prompts for a few days. Use `how` whenever you start something new.
+
+## The playbook
+
+`playbook/` has a guide for each part of our games: what we built, how we worked with Claude on it, the rules we follow now, the mistakes, code snippets and prompts that worked. Any chat can read one: tell Claude "first read ~/.claude/skills/game-coach/playbook/vfx.md". A CLAUDE.md made by `setup` tells Claude to check the playbook by itself before new kinds of work.
+
+World building, battles and bosses, saving and security, models in Blender, rigging and animation, VFX, sound, UI, onboarding, economy and Robux items, launch and growth, live events, and testing in Studio. The list with what each covers is in [playbook/index.md](playbook/index.md).
 
 ## The lessons
 

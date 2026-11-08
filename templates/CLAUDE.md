@@ -16,6 +16,7 @@ Do these before the first task, without being asked:
 - Recommend a model and reasoning effort with a short reason: low/medium for small tweaks and questions, high for most scripting, UI and building, the highest for saving data, security, battles and anything with Robux. Wait if I need to switch.
 - Search `notes/` (topic notes and `notes/Task Log/`) for past work on the same thing. Follow what I approved, turned down or asked to change there, including each log's `## Rejected / learned`.
 - New systems: ask me 3-5 design questions first, each with options and a default. "d" means use your default.
+- For a kind of work this game hasn't done before (a map, combat, models, effects, UI, saving, a shop), read `~/.claude/skills/game-coach/playbook/index.md` and the matching guide first. It's how another team built the same thing with Claude, including their mistakes.
 
 ## How to work
 
