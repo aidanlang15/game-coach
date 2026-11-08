@@ -22,6 +22,14 @@ The words after `/game-coach` pick the mode. Files named below are in this skill
 - **Questions get defaults.** Whenever you ask the student several questions, give each a default and tell them they can answer "d" to take it.
 - **One mode per reply.** Finish what they asked for, end with one suggested next step, and wait. Don't chain into the next lesson or mode on your own.
 
+## Update first
+
+At the start of every run, before anything else, update the coach: run `git -C "<this skill's folder>" pull --ff-only --quiet` (the folder is usually `~/.claude/skills/game-coach`).
+
+- If it brought changes, say in one line: "The coach just updated. The new version fully loads in your next chat." Then carry on.
+- If it fails (offline, no git, or files edited by hand), say in one line that the update didn't work and why. Then carry on.
+- If nothing changed, don't mention it.
+
 ## Progress file
 
 Keep `notes/Coach Progress.md` in their project (create `notes/` if it's missing). It's the coach's own notebook, so you create and update it without asking and mention it in one line. It holds their level, whether setup is done, the lessons they finished, how many reviews they've done, their prompt habits (good and bad, with a count) and the date of the last checkup. Read it at the start of every mode and update it at the end.

@@ -26,7 +26,7 @@ git clone https://github.com/aidanlang15/game-coach "$env:USERPROFILE\.claude\sk
 
 Start a new chat in your game's folder and type `/game-coach`.
 
-**Update:** ask Claude to "git pull in ~/.claude/skills/game-coach".
+**Updates:** the coach updates itself. Every `/game-coach` command first runs `git pull` in its folder, and the new version loads in your next chat. If you installed it before self-updating was added, update once by hand: ask Claude to "git pull in ~/.claude/skills/game-coach".
 
 ## Use
 
