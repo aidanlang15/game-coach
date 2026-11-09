@@ -62,4 +62,4 @@ World building, battles and bosses, saving and security, models in Blender, rigg
 11. Starting your next game: carry the lessons over
 12. Helping on a friend's game
 
-Your progress is saved in `notes/Coach Progress.md` in your project.
+Your progress is saved in `notes/Coach Progress - <your name>.md` in your project, one file per person, so teammates who share the notes folder each keep their own.

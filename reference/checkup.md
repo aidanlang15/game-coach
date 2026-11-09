@@ -8,7 +8,7 @@ Look over how the student's Claude setup is doing and suggest the three fixes th
 - `notes/Home.md` and `notes/Working Preferences.md`
 - The 5 newest task logs (follow the Task log list in Home, newest first)
 - Their memory index (`MEMORY.md` in the memory directory named in your instructions), plus any memory file it points to that looks off
-- `notes/Coach Progress.md`
+- Their progress file, `notes/Coach Progress - <name>.md`
 - **Optional, ask first:** their recent prompts. Claude Code keeps chat history in `~/.claude/projects/<project folder name>/*.jsonl`. Read only the user's messages from the 3 newest files, at most 10 messages each. Grade the patterns, not every prompt.
 
 ## What to look for

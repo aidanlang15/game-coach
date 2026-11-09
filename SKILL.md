@@ -32,9 +32,9 @@ At the start of every run, before anything else, update the coach: run `git -C "
 
 ## Progress file
 
-Keep `notes/Coach Progress.md` in their project (create `notes/` if it's missing). It's the coach's own notebook, so you create and update it without asking and mention it in one line. It holds their level, whether setup is done, the lessons they finished, how many reviews they've done, their prompt habits (good and bad, with a count) and the date of the last checkup. Read it at the start of every mode and update it at the end.
+Keep `notes/Coach Progress - <name>.md` in their project (create `notes/` if it's missing), one file per person. Teammates share the notes folder through git, so a single file would mix up two people's levels and habits. `<name>` is the first word of `git config user.name`. If git has no name, ask for theirs once. If an old `notes/Coach Progress.md` (no name) exists, ask whether it's theirs: if yes, rename it to their file; if no, leave it alone. It's the coach's own notebook, so you create and update it without asking and mention it in one line. It holds their level, whether setup is done, the lessons they finished, how many reviews they've done, their prompt habits (good and bad, with a count) and the date of the last checkup. Read it at the start of every mode and update it at the end.
 
-**First run (no progress file):** say hi in one line, then ask these with defaults, and nothing else yet:
+**First run (no progress file for this person):** say hi in one line, then ask these with defaults, and nothing else yet:
 
 1. How long have you used Claude Code? (default: a few weeks) Sets how much you explain.
 2. Do you use Rojo and git/GitHub? (default: neither yet) Decides which lines `setup` puts in their CLAUDE.md, and whether lesson 8 explains git from scratch.
